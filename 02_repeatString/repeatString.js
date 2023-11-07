@@ -6,6 +6,6 @@ const repeatString = function(string, num) {
 	return longString;
 }
 
-repeatString("hey", 5);
+repeatString("", 10);
 // Do not edit below this line
 module.exports = repeatString;
