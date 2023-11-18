@@ -4,11 +4,10 @@ const reverseString = function(string) {
 	for (let i = length; i >= 0; i--) {
     	splitter.push(string[i]);
 	}
-	let reverseSplit = splitter.join("");
-	return reverseSplit;
+	return splitter.join("");
 };
 
-reverseString("123! abc!");
+reverseString("");
 
 // Do not edit below this line
 module.exports = reverseString;
