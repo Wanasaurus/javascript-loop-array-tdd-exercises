@@ -1,8 +1,5 @@
-let numbers = [[1, 2, 3, 4], 3];
-let filtered = numbers.filter(removeFromArray);
+const removeFromArray = function() {
 
-function removeFromArray(numbers) {
-	return numbers !== 3;
 };
 
 // Do not edit below this line
