@@ -1,9 +1,7 @@
-let array;
-let flatArray = array.flat();
-function removeFromArray (flatArray, item) { 
-	for (let i = flatArray.length; i--;) {
-	if (flatArray[i] === item) {
-		return flatArray.splice(i, 1);
+function removeFromArray (array, item) { 
+	for (let i = array.length; i--;) {
+	if (array[i] === item) {
+		return array.splice(i, 1);
 	}
     }      
 }
