@@ -1,9 +1,14 @@
-let array = [[1, 2, 3, 4], 3];
+let array;
 let flatArray = array.flat();
-let removeFromArray = flatArray.filter(function (number) {
-    return number !== 3;
-});
-console.log(removeFromArray);
+function removeFromArray (flatArray, item) { 
+	for (let i = flatArray.length; i--;) {
+	if (flatArray[i] === item) {
+		return flatArray.splice(i, 1);
+	}
+    }      
+}
+
+removeFromArray([[1, 2, 3, 4], 3], 3);
 
 // Do not edit below this line
 module.exports = removeFromArray;
