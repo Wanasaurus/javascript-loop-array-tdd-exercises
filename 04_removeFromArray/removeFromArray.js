@@ -13,7 +13,7 @@ const removeFromArray = function (array, ...args) {
 };
 
 
-removeFromArray([1, 2, 3, 4], 7, "tacos");
+removeFromArray([1, 2, 3, 4], 1, 2, 3, 4);
 
 // Do not edit below this line
 module.exports = removeFromArray;
