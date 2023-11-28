@@ -13,7 +13,7 @@ const removeFromArray = function (array, ...args) {
 };
 
 
-removeFromArray(["hey", 2, 3, "ho"], "hey", 3);
+removeFromArray([1, 2, 3], "1", 3);
 
 // Do not edit below this line
 module.exports = removeFromArray;
