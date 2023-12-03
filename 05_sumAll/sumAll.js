@@ -1,12 +1,19 @@
-const sumAll = function(first, second) {
+sumAll = function(first, second) {
 	let sum = 0;
-	for (let i = first; i <= second ; i++) {
+    if (first < second) {
+    	for (let i = first; i <= second ; i++) {
         	sum += i;
     	}
-    	return sum;    
+    	return sum;
+    } else if (first > second) {
+        for (let i = first; i >= second ; i--) {
+        	sum += i;
+    	}
+    	return sum;
+    }
 };
 
-sumAll(1, 4000);
+sumAll(123, 1);
 
 // Do not edit below this line
 module.exports = sumAll;
