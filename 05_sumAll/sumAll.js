@@ -15,7 +15,7 @@ let sumAll = function(first, second) {
     }
 };
 
-sumAll(10, "90");
+sumAll(10, [90, 1]);
 
 // Do not edit below this line
 module.exports = sumAll;
