@@ -1,6 +1,6 @@
 let sumAll = function(first, second) {
 	let sum = 0;
-    if (first < 0 || second < 0) {
+    if (first < 0 || second < 0 || typeof(first) !== "number" || typeof(second) !== "number") {
         return "ERROR";
         } else if  (first < second) {
     	for (let i = first; i <= second ; i++) {
@@ -15,7 +15,7 @@ let sumAll = function(first, second) {
     }
 };
 
-sumAll(-10, 4);
+sumAll(10, "90");
 
 // Do not edit below this line
 module.exports = sumAll;
