@@ -1,6 +1,8 @@
-sumAll = function(first, second) {
+let sumAll = function(first, second) {
 	let sum = 0;
-    if (first < second) {
+    if (first < 0 || second < 0) {
+        return "ERROR";
+        } else if  (first < second) {
     	for (let i = first; i <= second ; i++) {
         	sum += i;
     	}
@@ -13,7 +15,7 @@ sumAll = function(first, second) {
     }
 };
 
-sumAll(123, 1);
+sumAll(-10, 4);
 
 // Do not edit below this line
 module.exports = sumAll;
