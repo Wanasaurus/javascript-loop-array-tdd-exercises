@@ -10,10 +10,13 @@ convertToCelsius(100);
 
 
 
-const convertToFahrenheit = function(temperature) {
-
-	
+const convertToFahrenheit = function(temp) {
+	let fahrenheit = (temp * (9/5)) + 32;
+	let fahrenheitNumber = fahrenheit.toFixed(1);
+	return Number(fahrenheitNumber);
 };
+
+convertToFahrenheit(0);
 
 // Do not edit below this line
 module.exports = {
