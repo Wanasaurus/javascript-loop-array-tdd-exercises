@@ -6,7 +6,7 @@ const convertToCelsius = function(temperature) {
 
 };
 
-convertToCelsius(100);
+convertToCelsius(-100);
 
 
 
@@ -16,7 +16,7 @@ const convertToFahrenheit = function(temp) {
 	return Number(fahrenheitNumber);
 };
 
-convertToFahrenheit(73.2);
+convertToFahrenheit(-10);
 
 // Do not edit below this line
 module.exports = {
