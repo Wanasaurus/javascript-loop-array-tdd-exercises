@@ -16,7 +16,7 @@ const convertToFahrenheit = function(temp) {
 	return Number(fahrenheitNumber);
 };
 
-convertToFahrenheit(0);
+convertToFahrenheit(73.2);
 
 // Do not edit below this line
 module.exports = {
