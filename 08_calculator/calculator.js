@@ -2,6 +2,8 @@ const add = function(one, two) {
 	return one + two;
 };
 
+add(2, 2);
+
 const subtract = function() {
 	
 };
