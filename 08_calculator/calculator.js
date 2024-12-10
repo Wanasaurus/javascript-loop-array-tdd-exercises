@@ -4,9 +4,11 @@ const add = function(one, two) {
 
 add(2, 6);
 
-const subtract = function() {
-	
+const subtract = function(one, two) {
+	return one - two;
 };
+
+subtract(10, 4);
 
 const sum = function() {
 	
