@@ -18,7 +18,7 @@ return numbers.reduce((accumulator, current) => {
 } , 0)
 }
 
-sum([11, 7]);
+sum([1, 3, 5, 7, 9]);
 
 const multiply = function() {
 
