@@ -10,9 +10,15 @@ const subtract = function(one, two) {
 
 subtract(10, 4);
 
-const sum = function() {
-	
-};
+const sum = function (numbers) {
+
+return numbers.reduce((accumulator, current) => {
+    return accumulator + current
+
+} , 0)
+}
+
+sum([]);
 
 const multiply = function() {
 
