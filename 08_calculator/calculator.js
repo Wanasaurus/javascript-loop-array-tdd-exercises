@@ -20,9 +20,15 @@ return numbers.reduce((accumulator, current) => {
 
 sum([1, 3, 5, 7, 9]);
 
-const multiply = function() {
+const multiply = function (numbers) {
 
-};
+return numbers.reduce((accumulator, current) => {
+    return accumulator * current
+
+} , 1)
+}
+
+multiply([2, 4]);
 
 const power = function() {
 	
