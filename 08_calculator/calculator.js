@@ -30,9 +30,11 @@ return numbers.reduce((accumulator, current) => {
 
 multiply([2, 4, 6, 8, 10, 12, 14]);
 
-const power = function() {
-	
+const power = function(one, two) {
+	return one ** two;
 };
+
+power(4, 3);
 
 const factorial = function() {
 	
