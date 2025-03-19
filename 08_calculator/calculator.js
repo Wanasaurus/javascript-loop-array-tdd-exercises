@@ -36,9 +36,14 @@ const power = function(one, two) {
 
 power(4, 3);
 
-const factorial = function() {
-	
+const factorial = function(number) {
+	let array = [];
+	for (let i = 1; i <= number; i++) {
+	array.push(i);}
+	return array.reduce((accelerator, current) => accelerator * current, 1);
 };
+
+factorial(0);
 
 // Do not edit below this line
 module.exports = {
