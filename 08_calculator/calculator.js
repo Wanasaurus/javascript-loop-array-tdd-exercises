@@ -49,6 +49,8 @@ factorial(1);
 
 factorial(2);
 
+factorial(5);
+
 // Do not edit below this line
 module.exports = {
   add,
