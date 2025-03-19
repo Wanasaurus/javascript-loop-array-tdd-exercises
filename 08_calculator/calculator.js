@@ -45,6 +45,8 @@ const factorial = function(number) {
 
 factorial(0);
 
+factorial(1);
+
 // Do not edit below this line
 module.exports = {
   add,
