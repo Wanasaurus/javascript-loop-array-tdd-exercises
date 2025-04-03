@@ -24,5 +24,7 @@ fibonacci(10);
 
 fibonacci(15);
 
+fibonacci(25);
+
 // Do not edit below this line
 module.exports = fibonacci;
