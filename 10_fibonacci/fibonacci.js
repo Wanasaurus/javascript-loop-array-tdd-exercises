@@ -18,5 +18,7 @@ const fibonacci = function(position) {
 
 fibonacci(4);
 
+fibonacci(6);
+
 // Do not edit below this line
 module.exports = fibonacci;
