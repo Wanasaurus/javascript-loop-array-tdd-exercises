@@ -1,5 +1,6 @@
-const fibonacci = function(position) {
+const fibonacci = function(place) {
 
+	let position = Number(place);	
 	if (position === 0) return 0;
 	if (position === 1) return 1;
 	if (position < 0) return "OOPS";
@@ -26,6 +27,11 @@ fibonacci(10);
 fibonacci(15);
 
 fibonacci(25);
+
+fibonacci(-25);
+
+fibonacci("1");
+
 
 // Do not edit below this line
 module.exports = fibonacci;
