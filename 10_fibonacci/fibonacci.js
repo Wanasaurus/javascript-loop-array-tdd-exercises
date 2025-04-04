@@ -2,6 +2,7 @@ const fibonacci = function(position) {
 
 	if (position === 0) return 0;
 	if (position === 1) return 1;
+	if (position < 0) return "OOPS";
 	
 	let prev1 = 0;
 	let prev2 = 1;
