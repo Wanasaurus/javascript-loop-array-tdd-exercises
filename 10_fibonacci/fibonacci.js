@@ -32,6 +32,8 @@ fibonacci(-25);
 
 fibonacci("1");
 
+fibonacci("2");
+
 
 // Do not edit below this line
 module.exports = fibonacci;
