@@ -1,10 +1,8 @@
-// Question 1 //
 
 const people = [
       {
         name: "Carly",
-        yearOfBirth: 1942,
-        yearOfDeath: 1970,
+        yearOfBirth: 2018,
       },
       {
         name: "Ray",
@@ -16,23 +14,24 @@ const people = [
         yearOfBirth: 1912,
         yearOfDeath: 1941,
       },
-    ];
+    ]
 
-const findTheOldest = function(persons) {
 
-	const sortedPpl = persons.sort((a , b) => {
-		const ageA = a.yearOfDeath - a.yearOfBirth;
-		const ageB = b.yearOfDeath - b.yearOfBirth;
-		
-		return ageB - ageA;
-	});
+function findTheOldest(persons) {
+
+
+	const currentYear = new Date().getFullYear();
+	const sortedPersons = persons.sort( (a, b) => {
 	
-	return sortedPpl[0];	
-};
+	const ageA = (a.yearOfDeath || currentYear) - a.yearOfBirth;
+	const ageB = (b.yearofDeath || currentYear) - b.yearOfBirth;
+	return ageB - ageA;
+	});
+
+	return sortedPersons[0];
+}
 
 findTheOldest(people);
-
-// Question 2 //
 
 
 // Reduce method
