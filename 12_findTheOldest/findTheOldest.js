@@ -2,7 +2,7 @@
 const people = [
       {
         name: "Carly",
-        yearOfBirth: 2018,
+        yearOfBirth: 1066,
       },
       {
         name: "Ray",
